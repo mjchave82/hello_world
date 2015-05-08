@@ -7,6 +7,6 @@ When(/^I write a Hello World test$/) do
 end
 
 Then(/^I should be able to run it and see "(.*?)" printed on screen$/) do |arg1|
-  visit("/hello_world/hello")
+  visit("/")
   expect(page).to have_content(arg1)
 end

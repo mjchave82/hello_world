@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  root                'hello_world/hello'
+
   get 'hello_world/hello'
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root                'hello_world/hello'
+  root                'hello_world#hello'
 
   get 'hello_world/hello'
 
